@@ -1,0 +1,223 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Milk",
+      "description": "Fresh cow's milk",
+      "cost": 2.49,
+      "manufacturingCost": 1.5
+    },
+    {
+      "id": 2,
+      "name": "Water",
+      "description": "Bottled natural spring water",
+      "cost": 1,
+      "manufacturingCost": 0.3
+    },
+    {
+      "id": 3,
+      "name": "Breadsticks",
+      "description": "Whole wheat bread",
+      "cost": 2.99,
+      "manufacturingCost": 1.75
+    },
+    {
+      "id": 4,
+      "name": "Apples",
+      "description": "Fresh organic apples",
+      "cost": 3.99,
+      "manufacturingCost": 2.25
+    },
+    {
+      "id": 5,
+      "name": "Coffee",
+      "description": "Ground Arabica coffee",
+      "cost": 5.99,
+      "manufacturingCost": 3.5
+    },
+    {
+      "id": 6,
+      "name": "Chocolate",
+      "description": "Dark chocolate bars",
+      "cost": 4.49,
+      "manufacturingCost": 2.75
+    },
+    {
+      "id": 7,
+      "name": "Pasta",
+      "description": "Spaghetti pasta",
+      "cost": 2.79,
+      "manufacturingCost": 1.6
+    },
+    {
+      "id": 8,
+      "name": "Tomatoes",
+      "description": "Ripe tomatoes",
+      "cost": 1.99,
+      "manufacturingCost": 1
+    },
+    {
+      "id": 9,
+      "name": "Yogurt",
+      "description": "Greek yogurt",
+      "cost": 2.29,
+      "manufacturingCost": 1.3
+    },
+    {
+      "id": 10,
+      "name": "Cereal",
+      "description": "Whole grain cereal",
+      "cost": 3.49,
+      "manufacturingCost": 2.1
+    },
+    {
+      "name": "Play",
+      "cost": "12",
+      "manufacturingCost": "1",
+      "description": "sadf",
+      "id": 11
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "John",
+      "surname": "Doe",
+      "phoneNumber": "555-123-4567"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "surname": "Smith",
+      "phoneNumber": "555-987-6543"
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "surname": "Johnson",
+      "phoneNumber": "555-555-5555"
+    },
+    {
+      "id": 4,
+      "name": "Emily",
+      "surname": "Brown",
+      "phoneNumber": "555-222-3333"
+    },
+    {
+      "id": 5,
+      "name": "David",
+      "surname": "Lee",
+      "phoneNumber": "555-444-7777"
+    },
+    {
+      "name": "Igna",
+      "surname": "Mendez",
+      "phone": "444-444-4444",
+      "id": 6
+    },
+    {
+      "name": "Javier",
+      "surname": "Quintana",
+      "phone": "213-123-1212",
+      "id": 7
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "date": "2023-10-01T08:00:00Z",
+      "clientId": 1,
+      "productIds": [
+        1,
+        3,
+        5
+      ],
+      "amounts": [
+        2,
+        1,
+        3
+      ],
+      "total": 26.45
+    },
+    {
+      "id": 2,
+      "date": "2023-10-02T12:30:00Z",
+      "clientId": 2,
+      "productIds": [
+        2,
+        4
+      ],
+      "amounts": [
+        5,
+        2
+      ],
+      "total": 19.95
+    },
+    {
+      "id": 3,
+      "date": "2023-10-03T15:15:00Z",
+      "clientId": 3,
+      "productIds": [
+        1,
+        5
+      ],
+      "amounts": [
+        3,
+        2
+      ],
+      "total": 21.47
+    },
+    {
+      "id": 4,
+      "date": "2023-10-04T09:45:00Z",
+      "clientId": 4,
+      "productIds": [
+        4
+      ],
+      "amounts": [
+        3
+      ],
+      "total": 11.97
+    },
+    {
+      "id": 5,
+      "date": "2023-07-05T16:20:00Z",
+      "clientId": 5,
+      "productIds": [
+        3,
+        4
+      ],
+      "amounts": [
+        2,
+        4
+      ],
+      "total": 21.94
+    },
+    {
+      "clientId": 6,
+      "productIds": [
+        1
+      ],
+      "amounts": [
+        2
+      ],
+      "date": "2023-10-05T15:09:24.956Z",
+      "total": 4.98,
+      "id": 6
+    },
+    {
+      "clientId": 7,
+      "productIds": [
+        1,
+        2
+      ],
+      "amounts": [
+        1,
+        1
+      ],
+      "date": "2023-09-05T15:09:59.711Z",
+      "total": 3.49,
+      "id": 7
+    }
+  ]
+}
