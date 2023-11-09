@@ -3,11 +3,11 @@
       <h1>Add Product</h1>
       <!-- Form for adding a new product -->
       <v-form>
-        <v-text-field v-model="newProduct.name" label="Name"></v-text-field>
-        <v-text-field v-model="newProduct.cost" label="Cost" type="number"></v-text-field>
-        <v-text-field v-model="newProduct.manufacturingCost" label="Manufacturing Cost" type="number"></v-text-field>
-        <v-text-field v-model="newProduct.description" label="Description"></v-text-field>
-        <v-btn @click="saveNewProduct">Save Product</v-btn>
+        <v-text-field v-model="newProduct.name" label="Name" data-cy="product-name"></v-text-field>
+        <v-text-field v-model="newProduct.cost" label="Cost" type="number" data-cy="product-cost"></v-text-field>
+       <v-text-field v-model="newProduct.manufacturingCost" label="Manufacturing Cost" type="number" data-cy="product-manufacturing-cost"></v-text-field>
+       <v-text-field v-model="newProduct.description" label="Description" data-cy="product-description"></v-text-field>
+        <v-btn @click="saveNewProduct" data-cy="save-button">Save Product</v-btn>
       </v-form>
       
       <!-- Display success message if product creation is successful -->

@@ -1,8 +1,8 @@
 <template>
     <div>
       <h1>Product List</h1>
-      <v-text-field v-model="search" label="Search by Name" @input="filterProducts"></v-text-field>
-      <v-btn @click="addProduct">Add Product</v-btn>
+      <v-text-field v-model="search" label="Search by Name" @input="filterProducts" data-cy="search"></v-text-field>
+      <v-btn @click="addProduct" label="Add Product">Add Product</v-btn>
       <v-table>
         <!-- Table headers -->
         <thead>
@@ -108,8 +108,7 @@
         product.name.toLowerCase().includes(searchQuery)
       );
     },
-    addProduct() {
-      // Navigate to the product creation view (if you have one)
+      addProduct() {
       this.$router.push('/create-product');
     },
       editProduct(productId) {

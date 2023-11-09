@@ -3,7 +3,7 @@
       <h1>Edit Product</h1>
       <!-- Form for editing product attributes -->
       <v-form>
-        <v-text-field v-model="editedProduct.name" label="Name"></v-text-field>
+        <v-text-field v-model="editedProduct.name" label="Name" data-cy="product-name"></v-text-field>
         <v-text-field v-model="editedProduct.cost" label="Cost"></v-text-field>
         <v-text-field v-model="editedProduct.manufacturingCost" label="Manufacturing Cost"></v-text-field>
         <v-text-field v-model="editedProduct.description" label="Description"></v-text-field>
